@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url("img/default.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    text-shadow: 2px 2px 1px #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#weatherContainer {
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 5px #000;
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    visibility: hidden;
+}
+
+#weatherContainer h1 {
+    margin: 5px;
+    font-size: 42px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+#searchContainer {
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#searchContainer input {
+    width: 200px;
+}
+
+#searchContainer button {
+    background-color: rgb(1, 159, 199);
+    width: 75px;
+}
+
+.searchControl {
+    box-shadow: 2px 2px 5px #000;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#weatherMain {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#weatherMain div {
+    display: inline-block;
+}
+
+#wetherDescriptionHeader {
+    font-size: 28px;
+    vertical-align: 50%;
+}
+
+#temperature {
+    font-size: 38px;
+    vertical-align: 25%;
+}
+
+.bottomDetails {
+    display: block;
+    font-size: 24px;
+    text-align: right;
+}
+
+hr {
+    margin-bottom: 20px;
+}
