@@ -1,4 +1,4 @@
-let appId = "23bd57188fab186d8cb802b2e8cdbb42";
+let appId = "apiCode";
 let units = "Metric";
 let searchMethod;
 
